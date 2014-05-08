@@ -33,7 +33,6 @@
   <body>
     <div class="navbar-wrapper">
       <div class="container">
-
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -43,39 +42,33 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">NARF | Nucleic Acids Research Facility</a>
+              <a class="navbar-brand" href="index.html">NARF</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sequencing<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Oligosynthesis</a></li>
+                    <li><a href="#">Next Generation Sequencing</a></li>
                     <li><a href="#">Sanger Sequencing</a></li>
-                    <li><a href="#">Microarray</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">ABI Freezer Program</a></li>
                   </ul>
                 </li>
+                <li><a href="#">Oligo Synthesis</a></li>
+                <li><a href="#">RT-PCR</a></li>
+                <li><a href="#">Microarray</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technologies<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">People<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">DNA Sequencing Core</a></li>
-                    <li><a href="#">Gene Synthesis Core</a></li>
-                    <li><a href="#">Microarraying Core</a></li>
-                    <li><a href="#">Real Time PCR Core</a></li>
+                    <li><a href="#">Lab Members</a></li>
+                    <li><a href="#">Contact Us</a></li>
                   </ul>
                 </li>
-                <li><a href="people.php">People</a></li>
-                <li><a href="contact.php">Contact</a></li>
               </ul>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
+    </div><!-- End Navbar wrapper -->
 
 
     <!-- Carousel
