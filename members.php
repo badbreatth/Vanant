@@ -11,7 +11,7 @@
     <title>NARF | Nucleic Acids </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,12 +29,10 @@
     <link href="css/carousel.css" rel="stylesheet">
   </head>
   <body>
-  	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <?php
-        include "navbar.php";
-      ?>
-    </div>
-    <div class="container">
+    <?php
+      include "navbar.php";
+    ?>
+    <div classs="container">
       <div class="page-header">
         <h1>Lab Members</h1>
       </div>
