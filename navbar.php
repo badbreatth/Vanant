@@ -1,4 +1,3 @@
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	  <div class="container">
 		<div class="navbar-header">
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -24,11 +23,10 @@
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown">People<span class="caret"></span></a>
 			  <ul class="dropdown-menu">
-				<li><a href="members.html">Lab Members</a></li>
+				<li><a href="members.php">Lab Members</a></li>
 				<li><a href="#">Contact Us</a></li>
 			  </ul>
 			</li>
 		  </ul>
 		</div><!-- End navbar collapse-->
 	  </div>
-	</div><!-- End Navbar -->
