@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="style/images/favicon.png" />
+	<link href="style/css/bootstrap.css" rel="stylesheet">
+	<link href="style/css/settings.css" rel="stylesheet">
+	<link href="style/js/google-code-prettify/prettify.css" rel="stylesheet">
+	<link href="style/js/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="style/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet">
+	<link href="style/css/color/green.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href="style/type/fontello.css" rel="stylesheet">
 
     <title>NARF | Nucleic Acids </title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -34,56 +39,7 @@
     ?>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="data:images/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Nucleic Acid Research Facility</h1>
-              <p>NARF Consists of five core laboratories, Next Generating Sequencing Core, Sanger Sequencing Core, Oligo Synthesis Core, Real Time PCR Core, and MicroArray Core</p>
-              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>New Website Design</h1>
-              <p>We are excited to announce that the NARF has a new Website</p>
-              <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p> -->
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Team Leaders</h1>
-              <p>Sanger Sequencing: Yingping Yang, M.D. 
-                <br> NGS: Vladimir Lee, Ph.D 
-                <br> Oligo Synthesis and RT PCR: Ruth C. Carvalho, M.S.
-                <br>Microarray: Myrna G. Serrano, Ph.D
-              <p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Meet Lab Members</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-
+  
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -94,74 +50,44 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="./img/NGS.jpg" alt="NGS" style="width: 140px; height: 140px;">
           <h2>NGS</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p>Information about Next Generation Sequencing Technologies</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2>Microarray</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <img class="img-circle" src="./img/Sanger.jpg" alt="Sanger Sequencing" style="width: 140px; height: 140px;">
+          <h2>Sanger Sequencing</h2>
+          <p>Information about Sanger Sequencing Technologies</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="./img/Oligo.jpg" alt="Oligo Synthesis" style="width: 140px; height: 140px;">
+          <h2>Oligo Synthesis</h2>
+          <p>Information about Oligo Synthesis service</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="./img/qPCR.png" alt="RT/qPCR" style="width: 140px; height: 140px;">
           <h2>RT/QPCR</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p>Information about RT/qPCR Service</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="./img/microarray.jpg" alt="Microarray" style="width: 140px; height: 140px;">
+          <h2>Microarray</h2>
+          <p>Information about Microarray Technologies</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
       </div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+	<?php
+      include "footer.php";
+    ?>
 
     </div><!-- /.container -->
 
@@ -169,8 +95,23 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+	<script src="style/js/jquery.js"></script> 
+	<script src="style/js/bootstrap.min.js"></script> 
+	<script src="style/js/twitter-bootstrap-hover-dropdown.min.js"></script> 
+	<script src="style/js/ddsmoothmenu.js"></script> 
+	<script src="style/js/jquery.themepunch.plugins.min.js"></script> 
+	<script src="style/js/jquery.themepunch.revolution.min.js"></script> 
+	<script src="style/js/jquery.themepunch.showbizpro.min.js"></script> 
+	<script src="style/js/jquery.fancybox.pack.js"></script> 
+	<script src="style/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.2"></script> 
+	<script src="style/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.0"></script> 
+	<script src="style/js/jquery.meanmenu.2.0.min.js"></script> 
+	<script src="style/js/jquery.fitvids.js"></script> 
+	<script src="style/js/jquery.slickforms.js"></script> 
+	<script src="style/js/jquery.isotope.min.js"></script> 
+	<script src="style/js/google-code-prettify/prettify.js"></script> 
+	<script src="style/js/jquery.easytabs.min.js"></script> 
+	<script src="style/js/jquery.hoverdir.min.js"></script> 
+	<script src="style/js/scripts.js"></script>
   </body>
 </html>
